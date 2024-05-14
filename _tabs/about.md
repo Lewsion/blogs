@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## About Us
-
 **Lewsion Technologies** is committed to revolutionizing the way businesses communicate and manage their IT infrastructure. Founded with the vision of making communication easy and cloud services more accessible, we specialize in providing robust VoIP solutions, open-source projects, and comprehensive cloud services.
 
 ### Our Mission
