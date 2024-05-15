@@ -26,7 +26,7 @@ LewsionPBX is a white-labeled PBX system based on FusionPBX, tailored to meet th
 
 ### How to Get Started with LewsionPBX:
 
-Getting started with LewsionPBX is easy. Simply visit [cloud.lewsion.com](https://cloud.lewsion.com) to explore our plans and pricing for the cloud-based solution. If you're interested in our on-premises solutions like 3CX and Grandstream, please contact us at [contact@lewsion.com](mailto:contact@lewsion.com) for more information. Our team is always ready to help you find the perfect communication solution for your business, no matter where you're located.
+Getting started with LewsionPBX is easy. Simply visit [cloud.lewsion.com](https://cloud.lewsion.com/store/cloud-pbx?currency=2) to explore our plans and pricing for the cloud-based solution. If you're interested in our on-premises solutions like 3CX and Grandstream, please contact us at [contact@lewsion.com](mailto:contact@lewsion.com) for more information. Our team is always ready to help you find the perfect communication solution for your business, no matter where you're located.
 
 ### Conclusion:
 
