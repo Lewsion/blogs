@@ -10,7 +10,7 @@ author: afrin
 When beginning your journey with Lewsion Technologies, there are a few key items you'll need to ensure a smooth and successful experience. Here's a guide to help you get started:
 
 #### 1. IP Number
-- At the initial stage, clients are required to have an IP number. However, Lewsion Technologies does not provide IP numbers directly. Instead, we have established partnerships with reputable IPTSPs. Through these partnerships, we procure and manage all necessary formalities on behalf of our clients, ensuring a seamless and efficient process. Otherwise, if you already own an IP number, we can easily setup your system with that existing number by transfering that IP number from your recent PBX prvider.
+- At the initial stage, clients are required to have an IP number. However, Lewsion Technologies does not provide IP numbers directly. Instead, we have established partnerships with reputable IPTSPs. Through these partnerships, we procure and manage all necessary formalities on behalf of our clients, ensuring a seamless and efficient process. Otherwise, if you already own an IP number, we can easily setup your system with that existing number by transfering that IP number from your recent PBX provider.
 
 #### 2. Required Documents
 - BTRC Number Registration Application (This will be provided by Lewsion Technologies)
@@ -30,6 +30,6 @@ When beginning your journey with Lewsion Technologies, there are a few key items
    5. Bria
 
 #### 5. PBX Server
-- While clients have the option to purchase their own server and set up their PBX, this process can be complex and burdensome. At Lewsion Technologies, we offer a hassle-free and user-friendly PBX solution, LewsionPBX. It's a cloud PBX that allows you to focus on your business while we take care of the technical aspects.
+- While clients have the option to purchase their own server and set up their PBX, this process can be complex and burdensome. At Lewsion Technologies, we offer a hassle-free and user-friendly PBX solution, LewsionPBX.If you are purchasing LewsionPBX, you need not to worry about a PBX. Lewsion Technologies will handle all the hassle, while you enjoy a smooth & top-notch communication system.
 
 With these initial requirements in place, you'll be well on your way to experiencing the benefits of Lewsion Technologies' communication solutions. Should you have any questions or require assistance, please do not hesitate to contact us at [contact@lewsion.com](mailto:contact@lewsion.com). We're here to help you every step of the way.
