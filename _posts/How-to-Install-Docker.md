@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "How to Install Docker on Ubuntu or Debian"
-date: 2024-11-05
+date: 2024-11-03
 categories: [Docker, Ubuntu, Debian]
 tags: [docker, installation, ubuntu, debian, beginners]
 author: Afrin Tisha
