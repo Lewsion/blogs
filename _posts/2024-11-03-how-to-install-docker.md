@@ -5,9 +5,6 @@ categories: [Docker, Ubuntu, Debian]
 tags: [docker, installation, ubuntu, debian, beginners]
 author: afrin
 ---
-
-# How to Install Docker on Ubuntu or Debian
-
 Docker is a powerful tool that allows developers to create, deploy, and run applications in isolated environments called **containers**. If you're new to Docker, this guide will walk you through the process of installing Docker on Ubuntu and Debian-based systems. Let's get started!
 
 ---
