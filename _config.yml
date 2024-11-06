@@ -61,7 +61,7 @@ analytics:
   google:
     id: G-L6VL5819LH # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: blog-lewsion # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
