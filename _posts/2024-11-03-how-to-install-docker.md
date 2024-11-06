@@ -101,13 +101,12 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 
 ```
 
-### What These Packages Mean:
-
-- **docker-ce**: The Docker Community Edition.
-- **docker-ce-cli**: The command-line interface for Docker.
-- **containerd.io**: A core component of Docker for managing container execution.
-- **docker-buildx-plugin**: An advanced build component for Docker that extends the capabilities of docker build with support for multi-platform builds.
-- **docker-compose-plugin**: A plugin that enables Docker Compose to manage multi-container applications directly through the Docker CLI.
+### Explanation of the Packages
+- **docker-ce**: The Community Edition of Docker.
+- **docker-ce-cli**: The command-line interface for interacting with Docker.
+- **containerd.io**: A critical component of Docker responsible for managing container execution.
+- **docker-buildx-plugin**: An enhanced build component for Docker that adds support for multi-platform builds in the docker build process.
+- **docker-compose-plugin**: A plugin that allows Docker Compose to manage multi-container applications directly through the Docker command line interface.
 ---
 
 ## Step 7: Verify Docker Installation
