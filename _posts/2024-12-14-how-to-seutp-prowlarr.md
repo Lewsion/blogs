@@ -5,9 +5,6 @@ categories: [Homelab, Media Server]
 tags: [docker, setup, ubuntu, debian, beginners]
 author: endrence
 ---
-
-# How to Set Up Prowlarr: The Index Manager in Your Media Management System
-
 Prowlarr is a powerful indexer manager that acts as a bridge between your media applications, such as Radarr and Sonarr. In this blog post, we'll explore what Prowlarr is, why it's essential in the Radarr and Sonarr ecosystem, and how to install and configure it for your media management setup. Additionally, stay tuned for our upcoming tutorial on setting up Radarr and Sonarr to enhance your media experience.
 Prowlarr is a user-friendly tool that helps you manage different sources for finding media content, like movies and TV shows. It connects to applications like Radarr and Sonarr, which are used for downloading and organizing your media. In this blog post, we'll break down what Prowlarr is, why it's crucial for working with Radarr and Sonarr, and how to easily install and set it up for your media collection. 
 
@@ -56,10 +53,9 @@ For more detailed official documentation, visit [Prowlarr Installation Documenta
 3. **Access the Web Interface:**
    - Once the installation is complete, open your web browser and type `http://localhost:9696` in the address bar to access the Prowlarr web interface.
 
-4. **Docker Compose Approach:**
+4. **Docker Compose**
    - If you prefer to run Prowlarr using Docker, you can use the following `docker-compose.yml` configuration:
      ```yaml
-     version: '3.3'
      services:
        prowlarr:
          image: prowlarr/prowlarr:latest
@@ -73,15 +69,6 @@ For more detailed official documentation, visit [Prowlarr Installation Documenta
          ports:
            - "9696:9696"
          restart: unless-stopped
-     ```
-
-5. **CLI Installation:**
-   - Alternatively, you can install Prowlarr using the command line:
-     ```bash
-     curl -L https://github.com/Prowlarr/Prowlarr/releases/latest/download/Prowlarr.windows.zip -o prowlarr.zip
-     unzip prowlarr.zip -d prowlarr
-     cd prowlarr
-     ./Prowlarr.exe
      ```
 
 For more detailed official documentation, visit [Prowlarr Installation Documentation](https://wiki.servarr.com/prowlarr/installation/docker).
