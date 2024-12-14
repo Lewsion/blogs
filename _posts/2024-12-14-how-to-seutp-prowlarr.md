@@ -127,4 +127,4 @@ For more detailed official documentation, visit [Prowlarr Installation Documenta
 - **Network Issues:**
   - Ensure your firewall or security software isn’t blocking Docker or Prowlarr from accessing the internet.
 
-With this guide, you should be well on your way to setting up Prowlarr in your media management system. Enjoy your media journey!
+With this guide, you should be well on your way to setting up Prowlarr in your media management system. If you have any confusion or need assistance, feel free to join our supportive community on Discord at [https://lewsion.com/discord](https://lewsion.com/discord). Enjoy your media journey!
