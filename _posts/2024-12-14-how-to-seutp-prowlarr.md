@@ -1,6 +1,6 @@
 ---
 title: Installing Prowlarr Made Easy
-date: 2024-12-15 12:00:00 +0600
+date: 2024-12-14 12:00:00 +0600
 categories: [Homelab, Media Server]
 tags: [docker, setup, ubuntu, debian, beginners]
 author: endrence
