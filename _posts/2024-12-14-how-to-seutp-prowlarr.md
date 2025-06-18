@@ -6,9 +6,9 @@ tags: [docker, setup, ubuntu, debian, beginners]
 author: endrence
 ---
 Prowlarr is a powerful indexer manager that acts as a bridge between your media applications, such as Radarr and Sonarr. In this blog post, we'll explore what Prowlarr is, why it's essential in the Radarr and Sonarr ecosystem, and how to install and configure it for your media management setup. Additionally, stay tuned for our upcoming tutorial on setting up Radarr and Sonarr to enhance your media experience.
-Prowlarr is a user-friendly tool that helps you manage different sources for finding media content, like movies and TV shows. It connects to applications like Radarr and Sonarr, which are used for downloading and organizing your media. In this blog post, we'll break down what Prowlarr is, why it's crucial for working with Radarr and Sonarr, and how to easily install and set it up for your media collection. 
+Prowlarr is a user-friendly tool that helps you manage different sources for finding media content, like movies and TV shows. It connects to applications like Radarr and Sonarr, which are used for downloading and organizing your media. In this blog post, we'll break down what Prowlarr is, why it's crucial for working with Radarr and Sonarr, and how to easily install and set it up for your media collection.
 
-To put it simply, indexers are essentially websites or services that gather information about torrents or Usenet binaries. They help you search for and download content efficiently. So, with Prowlarr, you can add multiple indexers to broaden your search options for the media you want. 
+To put it simply, indexers are essentially websites or services that gather information about torrents or Usenet binaries. They help you search for and download content efficiently. So, with Prowlarr, you can add multiple indexers to broaden your search options for the media you want.
 
 Plus, stay tuned for our upcoming tutorial on how to set up Radarr and Sonarr, which will further enhance your media experience!
 
@@ -19,6 +19,7 @@ Prowlarr is an innovative indexer management tool that facilitates the integrati
 ## 2. What You Can Do with Prowlarr
 
 With Prowlarr, you have the ability to:
+
 - **Manage Multiple Indexers:** Add different sources (like Torrent and Usenet sites) to look for movies and TV shows.
 - **Custom Search Profiles:** Configure personalized search profiles tailored for each indexer you use.
 - **Indexer Health Monitoring:** Keep an eye on the health and status of your indexers to ensure they are working correctly and can find the content you want.
@@ -27,7 +28,7 @@ With Prowlarr, you have the ability to:
 
 ## 3. How to Install Prowlarr on Windows and Docker
 
-### Installing Prowlarr on Windows 11
+### Installing Prowlarr on Windows 11 (MSI Installer)
 
 1. **Download Prowlarr:**
    - Visit the [Prowlarr Download page](https://prowlarr.com/#download).
@@ -41,20 +42,11 @@ With Prowlarr, you have the ability to:
 
 For more detailed official documentation, visit [Prowlarr Installation Documentation](https://wiki.servarr.com/prowlarr/installation/windows).
 
-### Installing Prowlarr on Windows 11
+### Installing Prowlarr with Docker
 
-1. **Download Prowlarr:**
-   - Visit the [Prowlarr Download page](https://prowlarr.com/#download).
-   - Download the latest version of the MSI installer for Windows.
-
-2. **Run the Installer:**
-   - Locate the downloaded MSI file and double-click it to run the installer. Follow the on-screen instructions to complete the installation.
-
-3. **Access the Web Interface:**
-   - Once the installation is complete, open your web browser and type `http://localhost:9696` in the address bar to access the Prowlarr web interface.
-
-4. **Docker Compose**
+1. **Docker Compose**
    - If you prefer to run Prowlarr using Docker, you can use the following `docker-compose.yml` configuration:
+
      ```yaml
      services:
        prowlarr:
@@ -89,7 +81,7 @@ For more detailed official documentation, visit [Prowlarr Installation Documenta
 3. **Sync from Prowlarr:**
    - After adding Prowlarr as an indexer in both Radarr and Sonarr, head back to Prowlarr.
    - Use the "Sync" feature to ensure that all your indexers are updated and that Radarr and Sonarr have the latest configurations.
-   
+
 4. **Test the Connection:**
    - After syncing, use the "Test" button in both Radarr and Sonarr to verify that they can communicate successfully with Prowlarr.
 
@@ -115,3 +107,4 @@ For more detailed official documentation, visit [Prowlarr Installation Documenta
   - Ensure your firewall or security software isn’t blocking Docker or Prowlarr from accessing the internet.
 
 With this guide, you should be well on your way to setting up Prowlarr in your media management system. If you have any confusion or need assistance, feel free to join our supportive community on Discord at [https://lewsion.com/discord](https://lewsion.com/discord). Enjoy your media journey!
+[EOF]
