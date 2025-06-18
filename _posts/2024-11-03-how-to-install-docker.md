@@ -61,7 +61,7 @@ This command retrieves Docker’s GPG key and saves it to your system for future
 
 With the GPG key successfully added, you can now add Docker’s repository to your list of sources.
 
-### For Ubuntu:
+### For Ubuntu
 
 Run the following command:
 
@@ -69,7 +69,7 @@ Run the following command:
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-### For Debian:
+### For Debian
 
 For Debian users, execute the following command instead:
 
@@ -174,7 +174,7 @@ If you’re using Proxmox, open the **Proxmox VE Shell** through the WebUI and f
 
 > **Note**: If the LXC is created as **Privileged**, this script will automatically configure USB passthrough.
 
-3. **Alternative Install for Alpine Linux**:
+1. **Alternative Install for Alpine Linux**:
 
    To set up a Proxmox VE Docker LXC using Alpine Linux, execute the following in the **Proxmox VE Shell**:
 
@@ -200,6 +200,6 @@ For more detailed documentation or updates to this script, visit the [Proxmox Co
 
 ## Conclusion
 
-Congratulations! You’ve successfully installed Docker on your Ubuntu or Debian system. Docker is now ready for use, enabling you to experiment with containers and run applications in isolated environments. For further learning, check out more tutorials on our [YouTube channel](#) for an in-depth exploration of Docker and other exciting technologies.
+Congratulations! You’ve successfully installed Docker on your Ubuntu or Debian system. Docker is now ready for use, enabling you to experiment with containers and run applications in isolated environments. For further learning, check out more tutorials on our [YouTube channel](https://www.youtube.com/@lewsion) for an in-depth exploration of Docker and other exciting technologies.
 
 Happy Dockering!
