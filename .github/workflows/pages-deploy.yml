@@ -31,13 +31,45 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
+          submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      - name: Cache Ruby gems
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Cache Jekyll build output (_site)
+        uses: actions/cache@v4
+        with:
+          path: _site
+          key: ${{ runner.os }}-site-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-site-
+
+      - name: Cache .bundle directory
+        uses: actions/cache@v4
+        with:
+          path: .bundle
+          key: ${{ runner.os }}-bundle-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bundle-
+
+      - name: Cache node_modules (if present)
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
