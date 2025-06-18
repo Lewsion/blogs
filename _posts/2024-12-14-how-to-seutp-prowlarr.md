@@ -1,5 +1,6 @@
 ---
 title: Installing Prowlarr Made Easy
+discription: A beginner-friendly guide to installing and configuring Prowlarr, the indexer manager for Radarr and Sonarr, on Windows and Docker.
 date: 2024-12-14 12:00:00 +0600
 categories: [Homelab, Media Server]
 tags: [docker, setup, ubuntu, debian, beginners]

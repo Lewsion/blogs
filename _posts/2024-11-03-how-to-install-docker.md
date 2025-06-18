@@ -1,5 +1,6 @@
 ---
 title: How to Install Docker on Ubuntu or Debian
+discription: A beginner-friendly guide to installing Docker on Ubuntu and Debian systems, including steps for Proxmox users.
 date: 2024-11-03 12:00:00 +0600
 categories: [Docker, Ubuntu, Debian]
 tags: [docker, installation, ubuntu, debian, beginners]
