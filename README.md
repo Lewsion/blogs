@@ -1,61 +1,66 @@
-# Chirpy Starter
+# Lewsion Blog & Documentation
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+Welcome to the official repository for the **[Lewsion Blog & Documentation](https://blog.lewsion.com)**. This blog serves as a central hub for comprehensive tutorials, guides, and documentation on a variety of technical topics.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## About This Blog
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+This blog provides detailed notes from [Lewsion's YouTube videos](https://www.youtube.com/@lewsion), in-depth documentation on our VoIP and cloud services, and practical tutorials on technologies like Docker, Ubuntu, and Debian. Our goal is to provide clear, concise, and useful information for developers, system administrators, and technology enthusiasts.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+## Topics We Cover
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Our content is broadly focused on, but not limited to:
 
-## Prerequisites
+* **Cloud & VoIP:** In-depth guides and documentation for our services.
+* **Server Administration:** Tutorials for Ubuntu, Debian, and other Linux distributions.
+* **Virtualization & Containers:** Practical guides for Docker and other containerization technologies.
+* **Self-Hosting:** Instructions and best practices for hosting your own services.
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+## Getting Started
 
-## Installation
+The primary way to interact with this blog is by visiting our website:
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+[**https://blog.lewsion.com**](https://blog.lewsion.com)
 
-Then clone it to your local machine and run:
+### Running Locally
 
-```console
-bundle
-```
+If you wish to run the blog locally for development or contribution purposes, please follow these steps:
 
-## Usage
+1. **Prerequisites:** Ensure you have [Git](https://git-scm.com/) and a working [Jekyll environment](https://jekyllrb.com/docs/installation/) installed.
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+2. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/lewsion/blogs.git
+    cd blogs
+    ```
+
+3. **Install dependencies and run:**
+
+    ```bash
+    bundle install
+    bundle exec jekyll serve
+    ```
+
+The site will be available at `http://localhost:4000`.
 
 ## Contributing
 
-The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  
-If you have problems using it, or would like to participate in improving it, please go to the main repository for feedback!
+We welcome contributions from the community! Whether you're fixing a typo, improving an existing article, or sharing your knowledge with a new post, your efforts are greatly appreciated.
+
+Anyone can contribute their knowledge professionally. If you are a new contributor, you can add yourself to the `_data/authors.yml` file. For detailed instructions on how to contribute, please see our [Contributing Guidelines](CONTRIBUTING.md).
+
+This blog is made possible by our contributors:
+
+* ENDRENCE
+* Lilitah Leternet
+* Afrin Tisha
 
 ## License
 
-This work is published under [MIT][mit] License.
+This work is published under the [MIT License][mit].
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[mit]: https://github.com/lewsion/blogs/blob/main/LICENSE
