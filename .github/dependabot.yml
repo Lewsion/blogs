@@ -15,3 +15,10 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
+
+  # Maintain Docker base image updates from Dockerfiles
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
